@@ -1,0 +1,15 @@
+.eprj
+.livereload
+.rvmrc
+bundler_stubs/*
+tags/*
+tags
+gems.tags
+brakeman.html
+coverage
+rails_best_practices_output.html
+*.swp
+*.swo
+node_modules
+.byebug_history
+node_modules

@@ -1,0 +1,18 @@
+[user]
+	name = Josef Šimánek
+	email = josef.simanek@gmail.com
+[core]
+	excludesfile = /home/retro/.gitignore
+	editor = vim -f
+[color]
+	ui = true
+[push]
+	default = simple
+[rebase]
+  autosquash = true
+[alias]
+  doge = "!f() { git log --pretty=format:%s | awk '{doge_words = \"wow,very,much,such,so,many\"; num_words = split(doge_words, doge_array, \",\"); n = int(rand() * 60); while (n--) printf(\" \"); n = split($0, a, \" \"); printf(\"%s %s\\n\", doge_array[int(rand() * num_words) + 1], a[int(rand() * n) + 1]);}'; }; f"
+[branch]
+	autosetuprebase = always
+[commit]
+	gpgsign = true
